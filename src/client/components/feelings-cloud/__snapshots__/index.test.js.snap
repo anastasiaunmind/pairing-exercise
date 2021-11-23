@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Feelings cloud 1`] = `
+<div>
+  <div
+    class="sc-bdnxRM gAuIVV"
+  >
+    <div
+      class="sc-gtsrHT kgogNg"
+      data-checked="false"
+      data-testid="feeling"
+    >
+      Happy
+    </div>
+    <div
+      class="sc-gtsrHT kgogNg"
+      data-checked="false"
+      data-testid="feeling"
+    >
+      Excited
+    </div>
+  </div>
+</div>
+`;
