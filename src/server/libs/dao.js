@@ -31,6 +31,10 @@ class DAO {
         return sorted;
     }
 
+    averageScore() {
+        this.items.reduce(this.items.score, )
+    }
+
     reset() {
         this.items = [];
     }

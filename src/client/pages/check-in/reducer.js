@@ -49,14 +49,17 @@ export const reducer = (state, action) => {
             ...state,
             feelings: state.feelings.map(item => {
                 if (item.value === action.data.value) {
+                    console.log("action data ->", action.data);
                     return action.data;
                 } else {
-                    item.checked = false;
+                    // item.checked = false;
+                    console.log("item ->", item);
                     return item;
                 }
             })
         };
     }
+
 
     if (action.type == ACTION.SUBMIT_FEELINGS) {
         return {
