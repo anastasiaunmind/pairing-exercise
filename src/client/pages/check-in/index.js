@@ -55,7 +55,7 @@ function CheckinPage() {
 
                         await axios.post("/check-in", {
                             score,
-                            feelings: feelings.filter(item => item.checked)[0].value,
+                            feelings: feelings.filter(item => item.checked).map(item => item.value),
                             notes,
                         });
     
